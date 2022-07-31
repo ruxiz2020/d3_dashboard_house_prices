@@ -33,5 +33,5 @@ wrapt==1.11.2
 WTForms==2.2.1
 pandas
 boto3
-uuid== 22.2.1
+uuid==22.0.4
 Flask-CKEditor
