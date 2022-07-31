@@ -36,3 +36,4 @@ pandas
 boto3
 uuid
 Flask-CKEditor
+collections
