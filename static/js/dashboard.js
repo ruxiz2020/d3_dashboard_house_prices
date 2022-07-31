@@ -1,3 +1,5 @@
+function db() {
+
   /**
      * Global layout (each feature graph)
     */
@@ -651,3 +653,4 @@
             y_active.splice( y_active.indexOf(y_field), 1 );
         }
     }
+}
