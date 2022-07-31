@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="icon" href="data:,">
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<base>
+	<title>Dashboard</title>
+	<link rel="stylesheet" type="text/css" href="/static/css/styles.css">
+</head>
+
+<body>
+	<div class="banner scalable">
+		<div class="icon">
+			<div class="icontext-vpad">
+				<!--vspace for icon text-->
+			</div>
+			<span class="icontext">D3 Visual</span>&nbsp;
+		</div>
+		<div class="banner-row">
+			<div class="banner-text-vpad">
+				<!--vspace-->
+			</div>
+			<span class="banner-text">&nbsp; &nbsp;Median prices of single family houses by 7 United States regions</span>
+		</div>
+	</div>
+	<br>
+	<div class="row scalable">
+		<div class="col1">
+			<!-- dummy container to maintain the right-alignment of the feature panel -->
+			<div style="height:5px;">
+				<div class="svg-container"></div>
+			</div>
+
+		</div>
+		<div class="col2" id="panel-features">
+			<div class="panel-container">
+				<div class="panel-title">
+					<p>Features</p>
+				</div>
+				<div id="panel" class="panel-body">
+					<!--
+                    The feature panel is created automatically from the column names of the data.
+                    Example:
+                    <label>
+                        <input type='checkbox' name="columnX" onclick='cb_checkbox_panel(this)'> &nbsp; ColumnX
+                    </label><br>
+                    -->
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" , src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://d3js.org/d3.v5.min.js"></script>
+	<!--<script type="text/javascript", src="./d3/d3.js"></script>-->
+
+	<script src="/static/js/dashboard.js">  </script>
+</body>
+
+</html>
