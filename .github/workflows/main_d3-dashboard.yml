@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'd3-dashboard'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CF397D02E8E946159945BBEAAFAD5157 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AB798E61C92146F0A45BAA4B0D637ABF }}
