@@ -85,6 +85,7 @@ function db() {
     rescaleDOM();
 
     // Load the data
+  console.log(d3.csv("static/input_data.csv"));
 	Promise.all([
         d3.csv("static/input_data.csv")
     ]).then(showData);
