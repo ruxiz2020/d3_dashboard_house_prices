@@ -13,7 +13,7 @@ app = Flask(__name__)
 
 
 app.config['CKEDITOR_SERVE_LOCAL'] = True
-app.config['CKEDITOR_HEIGHT'] = 400
+app.config['CKEDITOR_HEIGHT'] = 450
 
 
 @app.route('/')
