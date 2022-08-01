@@ -1,6 +1,4 @@
-function db() {
-
-  /**
+/**
      * Global layout (each feature graph)
     */
     const svg_height = 180;
@@ -85,7 +83,7 @@ function db() {
     rescaleDOM();
 
     // Load the data
-  console.log(d3.csv("static/input_data.csv"));
+  //console.log(d3.csv("static/input_data.csv"));
 	Promise.all([
         d3.csv("static/input_data.csv")
     ]).then(showData);
@@ -654,4 +652,3 @@ function db() {
             y_active.splice( y_active.indexOf(y_field), 1 );
         }
     }
-}

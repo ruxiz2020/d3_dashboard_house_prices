@@ -23,4 +23,4 @@ def index():
 
 # Default port:
 if __name__ == '__main__':
-    app.run(port=5052, debug=True)
+    app.run(port=5056, debug=True)
